@@ -1,0 +1,1 @@
+pyautogui.alert('Please take a break!')
