@@ -14,10 +14,19 @@ This project was motivated by a desire to improve the lifestyle of people who ha
 ![image](https://user-images.githubusercontent.com/73608152/216406364-a5eb7890-2138-41c8-949a-46d19f0e830e.png)
 
 
+
+
+
 ![image](https://user-images.githubusercontent.com/73608152/216406424-332ec485-5537-4f10-a3e5-84e4a75c5f96.png)
 
 
+
+
+
 ![image](https://user-images.githubusercontent.com/73608152/216406466-c51aa47d-dc2a-49aa-85f7-3ac1facb7ee2.png)
+
+
+
 
 
 
