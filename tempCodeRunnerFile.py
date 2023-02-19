@@ -1,1 +1,1 @@
-pyautogui.alert('Please take a break!')
+cap = cv2.VideoCapture(0)
