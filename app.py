@@ -2,7 +2,7 @@ import cv2
 import time
 import math as m
 import pyttsx3  
-from flask import Flask, render_template, Response,request
+from flask import Flask, render_template, Response, request
 import mediapipe as mp
 from numpy import imag
 import win32api
@@ -11,10 +11,11 @@ import pyautogui
 
 
 app = Flask(__name__)
+cap = cv2.VideoCapture(0)
 value=0
-@app.route('/index',methods=['GET', 'POST'])
+@app.route('/',methods=['GET', 'POST'])
 def index():
-    return render_template('index.html')
+    return render_template('/index.html')
 
 @app.route('/success',methods=['GET', 'POST'])
 def success():
@@ -67,8 +68,8 @@ def gen(value):
     mp_pose = mp.solutions.pose
     pose = mp_pose.Pose()
 
-    cap = cv2.VideoCapture(0)
-
+ 
+    
     # Meta
     fps = int(cap.get(cv2.CAP_PROP_FPS)) 
     width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
